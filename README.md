@@ -1,8 +1,10 @@
 # Task-Manager
-The outputs of all tasks of Task Manager assignment. 
 
-## Task 1 Output: 
-Data Types and Variables
+The outputs of all tasks of Task Manager assignment.
+
+## Task 1: Data Type and variables
+
+The out put of Student Data
 
 ```
 {
@@ -13,8 +15,10 @@ Data Types and Variables
 }
 ```
 
-## Task 2 Output:
-Task object Constructor 
+## Task 2: Task object Constructor
+
+The output of Constructor.
+
 ```
 Task {
   id: '131028 + 1758903320770',
@@ -26,10 +30,14 @@ Task {
   category: 'School'
 }
 ```
+
 ## Task 3 : Functions
+
 - Output of createTask function:
-This function is used to create new tasks for a user. 
-```Created Tasks: [
+  This function is used to create new tasks for a user.
+
+```
+Created Tasks: [
   Task {
     id: '131028 + 1758948049351',
     description: 'Description 1',
@@ -50,28 +58,44 @@ This function is used to create new tasks for a user.
   }
 ]
 ```
-- Output of deleteTask function: 
-This function is work for delete all tasks by using its id. To run this function, it will delete all existing tasks of a id.
+
+- Output of deleteTask function:
+  This function is work for delete all tasks by using its id. To run this function, it will delete all existing tasks of a id.
+
 ```
 After Deletion: []
 ```
 
-- Display Tasks by category: 
-This function mainly shows all the tasks of same category.
+- Display Tasks by category:
+  This function mainly shows all the tasks of same category.
+
 ```
 Displaying tasks by category: Work
 ID: 131028 + 1758950272537, Title: Task 1, Due: Sun Dec 31 2023, Completed: false
 ```
+
 ## Arrow Function: calculate the percentage
+
 This arrow func calculatae the percentage of completed task. In this code there are three created task task a, b and c. in the arrow function, I declare task a and b as complete. so the output is,
+
 ```
 Completed Tasks: 66.67%
 ```
 
-# Loops:
+# Task 4: Loops:
+
 In this tasks, I show all the tasks created at my birthday month. Here is the output:
+
 ```
-Tasks due in birthday month: 
+Tasks due in birthday month:
 ID: 131028 + 1759037530674, Title: Task 1, Due: Sun Dec 31 2023, Completed: true
 ID: 131028 + 1759037530674, Title: Task 3, Due: Sun Oct 15 2023, Completed: false
+```
+
+# Task 5 : Promises & Async Operations
+
+- In Task 5.1 I am doing a setTaskToStroage function which is return a _PROMISE_ by using .then and .catch block. It also contain a setTimeout function which takes time to genarate the output within birthMonth\*100ms time.
+
+```
+Tasks saved to storage successfully.
 ```

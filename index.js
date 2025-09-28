@@ -92,7 +92,25 @@ let displayTasksByMonth = () =>{
   }
 };
 
-a.createdDate = new Date("2023-04-10"); // April
-b.createdDate = new Date("2023-09-15"); // September
-c.createdDate = new Date("2023-04-20"); // April
-displayTasksByMonth();
+a.createdDate = new Date("2023-04-10");
+b.createdDate = new Date("2023-09-15"); 
+c.createdDate = new Date("2023-04-20"); 
+//displayTasksByMonth();
+
+//Task 5.1: Promise and Async operation 
+
+let saveTasksToStorage =(tasks) =>{
+  return new Promise((resolve,reject)=>{
+    setTimeout(()=>{
+      resolve("Tasks saved to storage successfully.");
+    },studentInformation.birthMonth*100);
+  });
+}
+
+saveTasksToStorage(tasks)
+.then((message)=>{
+  console.log(message);
+})
+.catch((error)=>{
+  console.error("Error saving tasks:", error);
+});
