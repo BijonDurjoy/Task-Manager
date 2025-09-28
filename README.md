@@ -63,7 +63,15 @@ Displaying tasks by category: Work
 ID: 131028 + 1758950272537, Title: Task 1, Due: Sun Dec 31 2023, Completed: false
 ```
 ## Arrow Function: calculate the percentage
-This arrow func calculatae the percentage of completed task. In this code there are three created task task a, b and c. in the arrow function, I declare task a and c as complete. so the output is,
+This arrow func calculatae the percentage of completed task. In this code there are three created task task a, b and c. in the arrow function, I declare task a and b as complete. so the output is,
 ```
 Completed Tasks: 66.67%
+```
+
+# Loops:
+In this tasks, I show all the tasks created at my birthday month. Here is the output:
+```
+Tasks due in birthday month: 
+ID: 131028 + 1759037530674, Title: Task 1, Due: Sun Dec 31 2023, Completed: true
+ID: 131028 + 1759037530674, Title: Task 3, Due: Sun Oct 15 2023, Completed: false
 ```

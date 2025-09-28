@@ -77,6 +77,22 @@ let calculatePercentage = () =>{
 
 const c =  createTask("Task 3", "Description 3", "2023-10-15", "Work");
 a.completed = true;
-c.completed = true;
-//console.log(calculatePercentage());
+b.completed = true;
+console.log(calculatePercentage());
 
+//Task 4 : Loops
+let displayTasksByMonth = () =>{
+  console.log(`Tasks due in birthday month: `);
+
+  for(let i = 0; i<tasks.length; i++){
+    let task = tasks[i];
+    if(task.createdDate.getMonth() +1 === studentInformation.birthMonth){
+      console.log(`ID: ${task.id}, Title: ${task.title}, Due: ${task.dueDate.toDateString()}, Completed: ${task.completed}`);
+    }
+  }
+};
+
+a.createdDate = new Date("2023-04-10"); // April
+b.createdDate = new Date("2023-09-15"); // September
+c.createdDate = new Date("2023-04-20"); // April
+displayTasksByMonth();
