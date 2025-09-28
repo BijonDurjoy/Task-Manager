@@ -62,3 +62,8 @@ This function mainly shows all the tasks of same category.
 Displaying tasks by category: Work
 ID: 131028 + 1758950272537, Title: Task 1, Due: Sun Dec 31 2023, Completed: false
 ```
+## Arrow Function: calculate the percentage
+This arrow func calculatae the percentage of completed task. In this code there are three created task task a, b and c. in the arrow function, I declare task a and c as complete. so the output is,
+```
+Completed Tasks: 66.67%
+```

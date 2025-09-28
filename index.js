@@ -39,8 +39,8 @@ function createTask(title, description, dueDate, category) {
   tasks.push(newTask);
   return newTask;
 }
-createTask("Task 1", "Description 1", "2023-12-31", "Work");
-createTask("Task 2", "Description 2", "2023-11-30", "Personal");
+const a = createTask("Task 1", "Description 1", "2023-12-31", "Work");
+const b = createTask("Task 2", "Description 2", "2023-11-30", "Personal");
 //console.log("Created Tasks:", tasks);
 
 // Delete task by id
@@ -63,5 +63,20 @@ function displayTasks(category){
     });
   }
 }
-displayTasks("Work");
+//displayTasks("Work");
+
+// Arrow function to calclulate percentage of completed tasks
+let calculatePercentage = () =>{
+  if(tasks.length === 0 ){
+    return "No Tasks Available";
+  }
+  const completedTasks = tasks.filter(task => task.completed).length;
+  const percentage = (completedTasks / tasks.length) * 100;
+  return `Completed Tasks: ${percentage.toFixed(2)}%`;
+}
+
+const c =  createTask("Task 3", "Description 3", "2023-10-15", "Work");
+a.completed = true;
+c.completed = true;
+//console.log(calculatePercentage());
 
