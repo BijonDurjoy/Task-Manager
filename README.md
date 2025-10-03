@@ -56,7 +56,7 @@ All tasks:  [
     completed: false,
     createdDate: 2025-10-03T13:22:35.494Z,
     dueDate: 2023-11-30T00:00:00.000Z,
-    category: 'Work'
+    category: 'School'
   },
   Task {
     id: 'NA-7B3469 + 1759497755494',
@@ -84,7 +84,7 @@ After deleting:  [
     completed: false,
     createdDate: 2025-10-03T13:36:26.435Z,
     dueDate: 2023-11-30T00:00:00.000Z,
-    category: 'Work'
+    category: 'School'
   }
 ]
 ```
@@ -93,16 +93,36 @@ After deleting:  [
   This function mainly shows all the tasks of same category.
 
 ```
-Displaying tasks by category: Work
-ID: 131028 + 1758950272537, Title: Task 1, Due: Sun Dec 31 2023, Completed: false
+School tasks:  [
+  Task {
+    id: 'NA-7B3469 + 1759499290727',
+    title: "Bijon's Task Manager",
+    description: 'This is an assignment',
+    priority: 1,
+    completed: true,
+    createdDate: 2025-10-03T13:48:10.727Z,
+    dueDate: 2023-12-31T00:00:00.000Z,
+    category: 'School'
+  },
+  Task {
+    id: 'NA-7B3469 + 1759499290728',
+    title: 'Task 2',
+    description: 'This is task 2',
+    priority: 3,
+    completed: false,
+    createdDate: 2025-10-03T13:48:10.728Z,
+    dueDate: 2023-11-30T00:00:00.000Z,
+    category: 'School'
+  }
+]
 ```
 
 ## Arrow Function: calculate the percentage
 
-This arrow func calculatae the percentage of completed task. In this code there are three created task task a, b and c. in the arrow function, I declare task a and b as complete. so the output is,
+This arrow func calculatae the percentage of completed task.
 
 ```
-Completed Tasks: 66.67%
+Percentage of completed tasks:  50.00%
 ```
 
 # Task 4: Loops:
@@ -110,9 +130,18 @@ Completed Tasks: 66.67%
 In this tasks, I show all the tasks created at my birthday month. Here is the output:
 
 ```
-Tasks due in birthday month:
-ID: 131028 + 1759037530674, Title: Task 1, Due: Sun Dec 31 2023, Completed: true
-ID: 131028 + 1759037530674, Title: Task 3, Due: Sun Oct 15 2023, Completed: false
+Tasks created in birth month:  [
+  Task {
+    id: 'NA-7B3469 + 1759502848267',
+    title: 'Task 2',
+    description: 'This is task 2',
+    priority: 3,
+    completed: false,
+    createdDate: 2023-04-15T00:00:00.000Z,
+    dueDate: 2023-11-30T00:00:00.000Z,
+    category: 'School'
+  }
+]
 ```
 
 # Task 5 : Promises & Async Operations
