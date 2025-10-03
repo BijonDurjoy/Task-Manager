@@ -8,7 +8,7 @@ The out put of Student Data
 
 ```
 {
-  id: 131028,
+  id: "NA-7B3469",
   name: 'Bijon Saha',
   birthMonth: 4,
   favoriteColor: 'Black'
@@ -21,7 +21,7 @@ The output of Constructor.
 
 ```
 Task {
-  id: '131028 + 1758903320770',
+  id: 'NA-7B3469 + 1758903320770',
   description: 'This is an assignment',
   priority: 1,
   completed: true,
@@ -33,37 +33,60 @@ Task {
 
 ## Task 3 : Functions
 
-- Output of createTask function:
+- **Output of createTask function:**
   This function is used to create new tasks for a user.
 
 ```
-Created Tasks: [
+All tasks:  [
   Task {
-    id: '131028 + 1758948049351',
-    description: 'Description 1',
-    priority: 3,
+    id: 'NA-7B3469 + 1759497755494',
+    title: "Bijon's Task Manager",
+    description: 'This is an assignment',
+    priority: 1,
     completed: true,
-    createdDate: 2025-09-27T04:40:49.351Z,
+    createdDate: 2025-10-03T13:22:35.494Z,
     dueDate: 2023-12-31T00:00:00.000Z,
+    category: 'School'
+  },
+  Task {
+    id: 'NA-7B3469 + 1759497755494',
+    title: 'Task 2',
+    description: 'This is task 2',
+    priority: 3,
+    completed: false,
+    createdDate: 2025-10-03T13:22:35.494Z,
+    dueDate: 2023-11-30T00:00:00.000Z,
     category: 'Work'
   },
   Task {
-    id: '131028 + 1758948049351',
-    description: 'Description 2',
-    priority: 3,
+    id: 'NA-7B3469 + 1759497755494',
+    title: 'Task 3',
+    description: 'This is task 3',
+    priority: 4,
     completed: true,
-    createdDate: 2025-09-27T04:40:49.351Z,
-    dueDate: 2023-11-30T00:00:00.000Z,
+    createdDate: 2025-10-03T13:22:35.494Z,
+    dueDate: 2023-10-31T00:00:00.000Z,
     category: 'Personal'
   }
 ]
 ```
 
-- Output of deleteTask function:
-  This function is work for delete all tasks by using its id. To run this function, it will delete all existing tasks of a id.
+- **Output of deleteTask function:**
+  This function is work for delete all tasks by using its id. By using this fuction you can delete the completed tasks. 
 
 ```
-After Deletion: []
+After deleting:  [
+  Task {
+    id: 'NA-7B3469 + 1759498586435',
+    title: 'Task 2',
+    description: 'This is task 2',
+    priority: 3,
+    completed: false,
+    createdDate: 2025-10-03T13:36:26.435Z,
+    dueDate: 2023-11-30T00:00:00.000Z,
+    category: 'Work'
+  }
+]
 ```
 
 - Display Tasks by category:
