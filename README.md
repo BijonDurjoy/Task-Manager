@@ -89,7 +89,7 @@ After deleting:  [
 ]
 ```
 
-- Display Tasks by category:
+- **Display Tasks by category:**
   This function mainly shows all the tasks of same category.
 
 ```
@@ -119,7 +119,7 @@ School tasks:  [
 
 ## Arrow Function: calculate the percentage
 
-This arrow func calculatae the percentage of completed task.
+This arrow function calculatae the percentage of completed task.
 
 ```
 Percentage of completed tasks:  50.00%
