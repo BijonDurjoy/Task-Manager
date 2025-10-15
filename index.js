@@ -71,7 +71,7 @@ console.log("All tasks: ", tasks);
 
 //3.2 Delete task by using task id, if completed is true
 function deleteTask(id) {
-  tasks = tasks.filter((task) => !(task.id === id && task.completed === true)); // <-- Problem: Only deletes if completed is true, but if ID is not unique, may not delete correct task.
+  tasks = tasks.filter((task) => !(task.id === id && task.completed === true));
   return tasks;
 }
 deleteTask(tasks[1].id);
